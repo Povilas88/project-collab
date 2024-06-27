@@ -123,10 +123,6 @@ text-align: center;
     position: absolute;
 }
 
-.bigElipse{
-
-}
-
 .smallElipse {
     top: 130px;
 }
@@ -170,4 +166,80 @@ text-align: center;
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+.bigPhoneContainer{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.vendorAppAndPhoneContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    gap: 50px;
+}
+
+.paragraph{
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.vendorAppPhone{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.paragraphBTNContainer{
+    background-color: white;
+    padding: 5px;
+    display: flex;
+    gap: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 8px 9px 0px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 1px 8px 9px 0px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 1px 8px 9px 0px rgba(0, 0, 0, 0.25);
+}
+.paragraphBTNContainer>button {
+    width: 50%;
+    padding: 5px;
+    border: white 2px solid;
+    background-color: transparent;
+}
+
+.paragraphBTNContainer>button:hover{
+    cursor: pointer;
+    background-color: #60267F;
+    border: #9A54BC 2px solid;
+    border-radius: 3px;
+    color: white;
+}
+
+.paragraphContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.vendorParagraph {
+    background-color: #F2F2F2;
+    width: 95%;
+    padding: 17px 15px;
+    font-size: 10px;
+}
+
+.vendorParagraph span {
+    font-weight: 600;
+    font-size: 11px;
 }
