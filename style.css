@@ -4,8 +4,25 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: "Roboto", sans-serif;
+}
+
 h2 {
     font-size: 21px;
+}
+
+.cssForFlex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .topLine {
@@ -81,10 +98,6 @@ h2 {
 }
 
 .topSection {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
 margin-top: 50px;
 gap: 30px;
 }
@@ -153,10 +166,6 @@ text-align: center;
 }
 
 .iconContainer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     gap: 50px;
 
 }
@@ -170,10 +179,6 @@ text-align: center;
 
 .bigPhoneContainer{
     margin-top: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     gap: 2rem;
 }
 
@@ -225,10 +230,6 @@ text-align: center;
 }
 
 .paragraphContainer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     gap: 10px;
 }
 
@@ -242,4 +243,119 @@ text-align: center;
 .vendorParagraph span {
     font-weight: 600;
     font-size: 11px;
+}
+
+.videoContainer {
+    gap: 50px;
+    margin-top: 150px;
+    padding: 30px;
+}
+
+.videoContainer p {
+    width: 75%;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500px;
+}
+
+.smallCardsSection h2{
+    text-align: center;
+}
+
+.smallCardsContainer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.smallCard {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.smallCard span{
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.span1 {
+    color: #9A54BC;
+}
+
+.bigThreeCardsContainer {
+    margin-top: 75px;
+    gap: 15px;
+}
+
+.bigThreeCardsContainer span{
+    color: #A79D9D;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.discountContainer {
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.yearly {
+    color: black!important;
+}
+
+.discount {
+    font-size: 7px!important;
+    background-color: #FFE87A;
+    padding: 2px;
+    border-radius: 5px;
+    color: black!important;
+}
+
+.bigCardsContainer {
+    gap: 30px;
+    width: 50%;
+}
+
+.bigCard {
+    border: 1px #AAAAAA solid;
+    border-radius: 5px;
+    padding: 20px 25px;
+    width: 200px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.bigCardPara {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.bigCard button {
+    color: #2B0236;
+    border: 2px solid #2B0236;
+    background-color: white;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.bigCard button:hover{
+    cursor: pointer;
+    background-color: #2B0236;
+    color: white;
+}
+
+.bigCardsList li{
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.bigCardsList li::marker {
+    content: "▶";
 }
