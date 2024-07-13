@@ -10,7 +10,7 @@ This project is for educational purposes only.
 
 Site published at: https://github.com/Povilas88/project-collab
 
-Design: [Eduhouse](https://www.figma.com/design/9mV6rCFOEd1ptuZ4JBovVS/Collab-landing-page-design-(Community)?node-id=1-971&t=amplz9pBxCScAJAr-0)
+Design: [project-Collab](https://www.figma.com/design/9mV6rCFOEd1ptuZ4JBovVS/Collab-landing-page-design-(Community)?node-id=1-971&t=amplz9pBxCScAJAr-0)
 
 ## 🎯 Project features/goals
 
